@@ -4,7 +4,7 @@ import {View} from "react-native";
 import clsx from "clsx";
 import {Image} from "react-native";
 import {useSafeAreaInsets} from "react-native-safe-area-context";
-import {components, colors} from "@/constants/theme";
+import {components, colors, spacing} from "@/constants/theme";
 
 const tabBar= components.tabBar;
 
@@ -35,7 +35,7 @@ return(
             overflow: 'hidden',
             borderTopWidth: 0,
             paddingBottom: 0,
-            paddingTop: 10,
+            paddingTop: spacing[2],
         },
         tabBarItemStyle: {
             height: tabBar.height,
