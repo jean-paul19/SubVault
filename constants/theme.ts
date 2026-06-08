@@ -1,10 +1,10 @@
 export const colors = {
-    background: "#fff9e3",
-    foreground: "#081126",
-    card: "#fff8e7",
-    muted: "#f6eecf",
+    background: "#ffffff",
+    foreground: "#000000",
+    card: "#f4f4f4",
+    muted: "#e5e5e5",
     mutedForeground: "rgba(0, 0, 0, 0.6)",
-    primary: "#081126",
+    primary: "#000000",
     accent: "#ea7a53",
     border: "rgba(0, 0, 0, 0.1)",
     success: "#16a34a",
@@ -38,6 +38,7 @@ export const components = {
     tabBar: {
         height: spacing[16],
         horizontalInset: spacing[5],
+        bottomInset: spacing[1],
         radius: spacing[8],
         iconFrame: spacing[12],
         itemPaddingVertical: spacing[2],

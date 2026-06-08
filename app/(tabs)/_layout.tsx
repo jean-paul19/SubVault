@@ -25,11 +25,11 @@ return(
         tabBarShowLabel: false,
         tabBarStyle: {
             position: 'absolute',
-            bottom: insets.bottom + tabBar.horizontalInset,
+            bottom: insets.bottom + tabBar.bottomInset,
             left: tabBar.horizontalInset,
             right: tabBar.horizontalInset,
             height: tabBar.height,
-            backgroundColor: colors.primary,
+            backgroundColor: 'rgba(0, 0, 0, 0.8)',
             borderRadius: tabBar.radius,
             elevation: 0,
             overflow: 'hidden',
